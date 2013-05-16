@@ -1,0 +1,17 @@
+<dataConfig>
+    <xi:include href="db-connection.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <document name="books">
+        <entity name="book" query='SELECT * FROM book'>
+        	<field column="id" name="id" />
+        	<field column="name" name="name" />
+        	<field column="author" name="author" />
+        	<field column="sequence_i" name="sequence_i" />
+        	<field column="cat" name="cat" />
+        	<field column="series_t" name="series_t" />
+        	<field column="genre_s" name="genre_s" />
+        	<field column="instock" name="instock" />
+        	<field column="price" name="price" />
+        	<field column="pages_i" name="pages_i" />
+	</entity>
+    </document>
+</dataConfig>

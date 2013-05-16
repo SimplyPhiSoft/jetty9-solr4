@@ -1,0 +1,9 @@
+<dataSource
+type="JdbcDataSource"
+driver="com.mysql.jdbc.Driver"
+url="jdbc:mysql://localhost/dataimporttest"
+user="YOUR-USERNAME"
+password="YOUR-PASSWORD"
+readOnly="true"
+batchSize="-1"
+zeroDateTimeBehavior="convertToNull" />
